@@ -3,7 +3,10 @@
   <head>
     <meta charset="utf-8">
     <title>Demonstrasjon</title>
-    <script type="text/javascript" src="js/demo.js">
+    <script type="text/javascript">
+      var avsnittet = document.getElementById("avsnittet");
+      var nytt = '<a href="#">død  lenke</a>';
+      avsnittet.innerHTML = nytt;
     </script>
   </head>
   <body onload="startProgram();">
