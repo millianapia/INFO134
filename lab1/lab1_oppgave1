@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="no">
+  <head>
+  <meta charset="UTF-8">
+  <title>Demonstrasjon</title>
+  </head>
+
+  <body>
+  <div>
+  <ol>
+    <li>Alfa</li>
+    <li>Beta</li>
+    <li>Gamma</li>
+  </ol>
+  </div>
+  <p>Jeg studerer ved <a href="https://www.uib.no">UIB </a>.</p>
+
+  </body>
+
+</html>

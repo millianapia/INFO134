@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="no">
+  <head>
+  <meta charset="UTF-8">
+  <title>Oppgave 2</title>
+  </head>
+  <body>
+<p>
+  <ol>
+    <li>HTML: HTML (HyperText Markup Language) is a descriptive language that specifies webpage structure.</li>
+    <li>head: provides general information about the document, including title and link to scripts</li>
+    <li>body: represents the content of an HTML document</li>
+    <li>p: represents a paragraph of a text</li>
+    <li>a: creates a hyperlink to other webpages, also works with email addresses.</li>
+    <li>title: defines the title of the document</li>
+    <li>h1: represents the first level of header. Goes from 1 to 6. </li>
+    <li>ul: unordered list, looks like a bullet point list</li>
+    <li>ol: ordered list, have numbers indicating element</li>
+    <li>li: represents an item in a list</li>
+    <li>div: generic container for flow content</li>
+    <li>span: generic inline container for prashing content.</li>
+    <li>img: embeds an image to the content</li>
+  </ol>
+</p>
+
+  </body>
+
+</html>

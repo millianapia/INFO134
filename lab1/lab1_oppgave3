@@ -1,0 +1,20 @@
+# 3 Inspisere dokumenter
+### Åpne det første dokumentet du forfattet i Firefox. Inspiser elementene i siden. (Meny ii Web Developer ii Inspector). Utforsk strukturen av dokumentet ditt.
+
+1. Hvor mange barn har div-elementet?
+div elementet har 1 barn
+
+2. Hvor mange barn har ol-elementet?
+ol elementet har 3 barn
+
+3. Hvor mange etterfølgere har div-elementet?
+den har 4 etterfølgere. Hvis vi tenker ol, og li elementene
+
+4. Hvor mange søsken har det?
+den har 1 søsken og det er p.
+
+5. Hvor mange foreldre har div-elementet?
+div har 1 foreldre, og det er body.
+
+6. Finnes det noen elementer som har flere eller færre foreldre?
+HTML har ingen foreldre siden det er en root.
