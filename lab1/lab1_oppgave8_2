@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="no">
+  <head>
+  <meta charset="UTF-8">
+  <title>Demonstrasjon</title>
+  <script src="js/mittScript.js"></script>
+  <script src="css/minStil.css""></script>
+  </head>
+  <body>
+      <div class="header">
+      </div>
+      <<div class="content">
+          <p>dette er en eksamensbesvarelse</p>
+      </div>
+      <<div class="footer">
+           <a href="https://www.uib.no">UIB </a>
+      </div>
+  </body>
+
+</html>

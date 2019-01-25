@@ -1,0 +1,23 @@
+#Tidligere eksamensoppgaver
+1. Hvilke ord gir opphav til forkortelsen HTML?
+HyperText Markup Language
+
+2. Forklar kort hvilken type struktur HTML definerer.
+is the basic structural element that is used to create webpages. HTML is a markup language, which means that it is used to “mark up” the content within a document, in this case a webpage, with structural and semantic information that tells a browser how to display a page
+
+3. Redegjør kort for den syntaktiske forskjellen mellom normale og tomme elementer.
+HTML elements with no content are called empty elements. Empty elements do not have an end tag, such as the <br> element (which indicates a line break). While normal elements have end tags
+
+4. HTML-elementer kan ha attributter. Slike attributter har generelt en verdi. Gi et eksempel på et element
+med et angitt atributt. Forklar hva attributtet gjør.
+Elements in HTML have attributes; these are additional values that configure the elements or adjust their behavior in various ways to meet the criteria the users want. For example:     <p id="avsnittet"> where the attribute is the id that refers to "avsnittet"
+
+5. Forfatt et HTML5 dokument som tilfredsstiller følgende krav:
+- Angir tegnkoding UTF-8
+- Inkluderer JavaScript fil på adressen "js/mittScript.js"
+- Inkluderer CSS-stilarket på adressen "css/minStil.css" (neste uke)
+- body-elementet har tre div-elementer som henholdsvis tilhører klassene: "header", "content" og
+"footer". Disse tre elementene skal utgjøre body-elementets eneste direkte barn.
+- div-elementet som tilhører klassen "content" skal ha et avsnitt (p-element) som sier at dette er en
+eksamensbesvarelse
+- div-elementet som tilhører klassen "footer" skal ha en lenke til UIB sin hjemmeside
