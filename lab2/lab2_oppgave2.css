@@ -1,0 +1,47 @@
+/*a*/
+/*p {
+  color: blue;
+}
+
+div{
+  color: blue;
+}
+*/
+
+
+/*b*/ /*
+body{
+  color: blue;
+}
+
+p{
+  color: red;
+}
+*/
+
+/*c*/
+/*
+div{
+  color: blue;
+}
+
+p{
+  color: red;
+}*/
+
+/*d*//*
+
+body > *{
+  color: red;
+}*/
+
+/*e*/
+
+
+body > *{
+  color: red;
+}
+
+div > p{
+  color:black;
+}

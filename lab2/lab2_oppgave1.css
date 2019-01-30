@@ -1,0 +1,18 @@
+div {
+  color:red;
+}
+
+p {
+  color: red;
+}
+
+/* Color of text will be green and the background will be pink */
+p {
+color: green;
+background-color: pink;
+}
+
+/* Turns the p inside the div to the color blue*/
+div p {
+color: blue;
+}

@@ -1,0 +1,44 @@
+header{
+  background: magenta;
+  font-family: "Lucida Sans", sans-serif;
+}
+
+article {
+  background-color: lightgrey;
+  font-family: "Times", serif;
+  max-width: 80%;
+}
+
+footer{
+  background:lightgreen;
+  font-family: "Lucida Sans", sans-serif;
+}
+
+)
+h1{
+  text-align: center;
+}
+
+div header{
+  background-color: initial;
+}
+
+div footer{
+  background-color: initial;
+}
+
+ul {
+height: 50px;
+list-style-type: none;
+background: black;
+}
+li {
+float: left;
+}
+
+li a {
+display: block;
+color: white;
+padding: 16px;
+text-decoration: none;
+}
