@@ -4,6 +4,7 @@ HyperText Markup Language
 
 2. Forklar kort hvilken type struktur HTML definerer.
 is the basic structural element that is used to create webpages. HTML is a markup language, which means that it is used to “mark up” the content within a document, in this case a webpage, with structural and semantic information that tells a browser how to display a page
+Document object model - trestruktur
 
 3. Redegjør kort for den syntaktiske forskjellen mellom normale og tomme elementer.
 HTML elements with no content are called empty elements. Empty elements do not have an end tag, such as the <br> element (which indicates a line break). While normal elements have end tags
