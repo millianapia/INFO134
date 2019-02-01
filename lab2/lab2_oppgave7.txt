@@ -1,17 +1,18 @@
-7.a) Hvilke ord gir opphav til forkortelsen CSS?
-7.b) En CSS-regel angis skjematisk som følger:
+1. Hvilke ord gir opphav til forkortelsen CSS?
+Cascading style sheet.
+
+2. En CSS-regel angis skjematisk som følger, Hva heter de ulike komponentene (A, B og C)?:
 A {
 B : C;
 }
-Hva heter de ulike komponentene (A, B og C)?
-7.c) Hvilke tre kilder (origin) gir opphav til CSS-regler når vi laster inn en vevside?
-7.d) Dersom to ulike CSS-regler fra samme kilde har samme spesifisitet, men gir motstridende presentasjonsinformasjon. Hvilken av reglene gjelder da?
-7.e) Forfatt et CSS-stilark som angir at
-• Alle div-elementer har gul bakgrunnsfarge,
-• alle p-elementer har sort tekstfarge,
-• alle h1-elementer som er etterfølger av et div-element har grønn tekstfarge,
-• elementet med id "minOverskrift" skal ha rød bakgrunnsfarge,
-• alle a-elementer som er etterfølger av et element i klassen "footer", har grå tekstfarge,
-• dersom dokumentet vises på en skjerm med høyst 600 piksler bredde, skal alle div-elementer ha hvit
-tekstfarge.
-Ignorer eventuelle konflikter og skriv inn regler som fanger alle punktene over.
+
+
+A = element / declaration
+B = Property
+C = Value
+
+3. Hvilke tre kilder (origin) gir opphav til CSS-regler når vi laster inn en vevside?
+external, internal and inline style sheets. 
+
+4. Dersom to ulike CSS-regler fra samme kilde har samme spesifisitet, men gir motstridende presentasjonsinformasjon. Hvilken av reglene gjelder da?
+Sist skrevet, den overskrider den som ble skrevet først.
