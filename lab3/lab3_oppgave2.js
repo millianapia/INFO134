@@ -45,22 +45,25 @@ for (i = 0; i < fam.length; i++) {
 // fornavn og etternavn er ikke definert, så blir undefined undefined
 var protoPerson = {
   get navn() {
-    return this.fornavn + this.etternavn;
+    return this.fornavn + " " + this.etternavn;
   }
 }
 
 var ola = Object.create(protoPerson);
 ola.fornavn = "Ola";
 ola.etternavn = "Nielsen";
+ola.navn;
 
-var protoPerson = // fra 3.a)
 
-  function person(fornavn, etternavn) {
-    // opprett objekt som har protoPerson som prototype
-    // ved hjelp av Object.create-metoden
-    // gi deretter objektet egenskaper ‘fornavn’ og ‘etternavn’
-    // returner objektet
-  }
+//  Fullfør programmet under. Programmet skal skrive ut fire linjer med tekst: Ole Nielsen, Kari Nielsen, Mor Nielsen, og Far Nielsen. (Strengt talt kan rekkefølgen variere.)
+
+
+function person(fornavn, etternavn) {
+  var person = Object.create(protoPerson);
+  person.fornavn = fornavn;
+  person.etternavn = etternavn;
+  return person;
+}
 
 var familie = {
   ola: person("Ola", "Nielsen"),
@@ -69,7 +72,22 @@ var familie = {
   far: person("Far", "Nielsen")
 };
 
+protoPerson.hils = function() {
+  console.log("Hei, " + this.navn + "!");
+}
+
 for (var nøkkel in familie) {
   var verdi = familie[nøkkel];
   console.log(verdi.navn);
 }
+
+/*
+variabelen familie?
+
+
+variabelen ola dersom vi lar var ola = familie["ola"];)?
+
+
+variabelen protoPerson?
+
+*/
