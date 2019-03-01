@@ -22,6 +22,5 @@ console.log("Oppgave 3 c");
 
 function funksjon() {
   var step = 0;
-  var counter =
-    var limit
+  var counter;
 }
