@@ -12,13 +12,26 @@ function lastNed(netID) {
   xhttp.onreadystatechange = function() {
     if (this.readyState == 4 && this.status == 200) {
       var myObj = JSON.parse(this.responseText);
-      var tekst = "this the person: ";
-      for (var i in this.nodes) {
-        var person = this.nodes[i];
-        tekst += "\n" + person.name + " " + person.surname;
+      for (var i in myObj.nodes) {
+        var person = myObj.nodes[i];
+        var para = document.createElement("ul");
+        var count = 0;
+        for (var j in myObj.edges) {
+          var edge = myObj.edges[j]
+          if (edge[0] == i) {
+            count++;
+          }
+        }
+        var node = document.createTextNode(person.name + " " + person.surname + " " + count + " friends");
+
+
+
+        para.appendChild(node);
+        var element = document.getElementById("myList");
+        element.appendChild(para);
 
       }
-      document.getElementById("textHere").innerHTML = tekst;
+
     }
   };
   xhttp.open("GET", "http://wildboy.uib.no/~tpe056/info134/uke9/data/nettverk_15_" + netID + ".json", true);
