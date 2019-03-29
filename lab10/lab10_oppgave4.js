@@ -12,10 +12,7 @@ btn.onclick = function() {
   lastNed(userInputValue1);
 }
 
-btn2.onclick = function() {
-  userInputValue2 = userInput2.value;
-  lastNedFraListe(userInputValue2);
-}
+
 
 function lastNed(netID) {
   var xhttp1 = new XMLHttpRequest();
@@ -25,12 +22,15 @@ function lastNed(netID) {
       indexObj = JSON.parse(this.responseText);
       for (var i in indexObj) {
         if (i === netID) {
+          for (var j in indexObj[i]) {
+            var btn = document.createElement("BUTTON");
+            btn.innerHTML = indexObj[i][j];
+            document.body.appendChild(btn);
+            btn.onclick = function() {
+              lastNedFraListe(btn.innerText);
+            }
+          }
           indexValues = indexObj[i];
-          var para = document.createElement("ul");
-          var node = document.createTextNode("\n" + indexObj[i]);
-          para.appendChild(node);
-          var element = document.getElementById("idList");
-          element.appendChild(para);
         }
       }
     }
@@ -48,13 +48,13 @@ function lastNedFraListe(netID) {
       var myObj = JSON.parse(this.responseText);
       for (var i in myObj.nodes) {
         var person = myObj.nodes[i];
-        if (person.name == userInputValue1) {
-          var para = document.createElement("p");
-          var node = document.createTextNode(person.name + " " + person.surname);
-          para.appendChild(node);
-          var element = document.getElementById("navneListe");
-          element.appendChild(para);
-        }
+
+        var para = document.createElement("p");
+        var node = document.createTextNode(person.name + " " + person.surname);
+        para.appendChild(node);
+        var element = document.getElementById("navneListe");
+        element.appendChild(para);
+
       }
 
     }
