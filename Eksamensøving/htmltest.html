@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script>
+
+        function peepee(){
+            document.querySelector("#første").innerHTML = "fyyyrste avsnitt";
+        }
+
+        function notpeepee(){
+            document.querySelector("h1").style.align = "center";
+        }
+       // do{
+          //  var tilbakemelding = prompt("show me what u got");
+            //var correct = confirm("ayy lmao" + tilbakemelding);
+        //} while(!correct){
+            //alert("hello guts " + tilbakemelding);
+   //     }
+    
+        var tittel = document.getElementsByTagName("title")[0];
+        
+var lukObj = {
+    name: "Luke Skylwalker",
+    height: 172,
+    mass: 77,
+    hairColor: "blond",
+    skinColor: "fair",
+    eyeColor: "blue",
+    born: "19BBY",
+    gender: "male",
+    homeworld: "Tatooine",
+    species: "Human",
+    vehicles: ["Snowspeeder", "Imperial speeder bike"],
+    starships: ["X-wing", "Imperial Shuttle"]
+};
+
+function konstrukt(navn, alder, piss){
+    this.navn = navn;
+    this.alder = alder;
+    this.piss = piss;
+}
+
+function testingFunction(){
+
+}
+
+
+
+    </script>
+</head>
+<body>
+    <p>notthepeepeeyoulookingfor</p>
+    <h1 onclick="peepee()">tittel</h1>
+    <p id="første" onclick="notpeepee()">første avsnitt: original versjon</p>
+
+    <h3 onclick="testingFunction()">ayyy</h3>
+
+
+    </body>
+
+</html>
